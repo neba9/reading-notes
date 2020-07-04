@@ -1,5 +1,5 @@
 # Reading notes
 
 
-- [*Growth Mindset*](https://neba9.github.io/reading-notes/)
+- [*Lab01b*](https://neba9.github.io/reading-notes/)
 
