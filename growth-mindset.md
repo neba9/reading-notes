@@ -1,7 +1,7 @@
 [*Home*](https://neba9.github.io/reading-notes/)
 
-
-# Growth mindset
+# Nebiyu's Reading Notes
+### Growth mindset
 
 **Growth mindset:-** shown to increase my skills and knowledge  over the time. I belief I can control my own ability, and can learn and improve it’s a key to success.
 
@@ -14,3 +14,4 @@
 
 - Try different learning tactics.-
 
+Hi my name is** Nebiyu.** i am hear to lear code 
