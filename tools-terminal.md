@@ -3,7 +3,7 @@
 
   ### 1- what is a command line
 
-A command line, or terminal:- is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. 
+**A command line, or terminal**:- is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. 
 
  **Shell** :-This is a part of the operating system that defines how the terminal will behave and looks after running (or executing) commands for you. There are various shells available but the most common one is called bash which stands for Borne again shell.
  **Here is an example**:-  we can run with commend -(ls ./documents) and with out a commend  - (ls  -l)
