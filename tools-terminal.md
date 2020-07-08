@@ -1,5 +1,7 @@
 # Tools and Terminal
-  1- what is a command line
+
+
+  ### 1- what is a command line
 
 A command line, or terminal:- is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. 
 
@@ -9,15 +11,17 @@ A command line, or terminal:- is a text based interface to the system. You are a
 CD:-which stands for change directory. usually will be run with a single command line argument which is the location we would like to change into. The location is specified as a path and as such may be specified as either an absolute or relative path.
 *example:- cd documents    run    OR cd / run 
 
+
+
 ### 2-what is Linux:-Linux is an extension less system.
 
-        under Linux the system actually ignores the extension and looks inside the file to determine what type of file it is. 
+        under  **Linux**the system actually ignores the extension and looks inside the file to determine what type of file it is. 
 
 - file extension is normally a set of 2 - 4 characters after a full stop at the end of a file, which denotes what type of file it is. The following are common extensions:
 
-file.exe - an executable file, or program.
-file.txt - a plain text file.
-file.png, file.gif, file.jpg - an image.
+* file.exe - an executable file, or program.
+* file.txt - a plain text file.
+* file.png, file.gif, file.jpg - an image.
 examples:- if we want to know  the file type we can use file commend on terminal
 
    -  file[path]
