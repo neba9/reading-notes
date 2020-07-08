@@ -1,6 +1,6 @@
 [*Home*](https://neba9.github.io/reading-notes/)
 
-# Tools and Terminal
+# Tools and Terminal 
 
 
   ### 1- what is a command line
@@ -31,7 +31,7 @@ under **Linux** the system actually ignores the extension and looks inside the f
 **quotes**:-The first approach involves using quotes around the entire item. You may use either single or double quotes.Anything inside quotes is considered a single item.
 **example**:-  cd 'holiday photos'
 
-Another method is to use what is called an **escape character**, which is a backslash ( \ ). What the backslash does is escape (or nullify) the special meaning of the next character
+-Another method is to use what is called an **escape character**, which is a backslash ( \ ). What the backslash does is escape (or nullify) the special meaning of the next character
 
 **example** :- cd holiday\photos
 
