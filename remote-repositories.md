@@ -3,7 +3,7 @@
 # Git vs github
 
 
-### **Github** is the hosting platform for **Git**. Most developers are familiar with Github and it is easy to adapt to it. The difference between Git and Github is that Git is an open source version control system and Github is a web-based hosting service for Git repository.
+- **Github** is the hosting platform for **Git**. Most developers are familiar with Github and it is easy to adapt to it. The difference between Git and Github is that Git is an open source version control system and Github is a web-based hosting service for Git repository.
 
  ### **Stashing Changes**
 When you are not ready to commit changes but do not want to lose them either, git stash is a great option. This command temporarily removes changes and hides them, giving you a clean working directory. When you are ready to continue working on the changes, simply use the git stash apply command to retrieve the hidden changes.
