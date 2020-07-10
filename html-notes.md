@@ -1,7 +1,10 @@
 # HTML NOTES
 
-# HTML:- 
-uses elementes to describe the stractur of pages.
+### HTML
+- uses elementes to describe the stractur of pages.**HTML** is a set of codes that a website author inserts into a plain text file to format the content. The author inserts HTML tags, or commands, before and after words or phrases to indicate their format and location on the page. HTML tags are also used to add tables, lists, images, music, and other elements to a webpage.
+
+### CSS 
+- Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
 ### Version of HTML
 
