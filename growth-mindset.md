@@ -14,7 +14,6 @@
 
 - Try different learning tactics.-
 
-Hi my name is** Nebiyu.** i am hear to lear code 
 
 
 
