@@ -11,4 +11,4 @@
 # Central processing unit (CPU):- 
  -The microprocessor "brain" of the computer system is called the central processing unit. Everything that a computer does is overseen by the CPU. Memory - This is very fast storage used to hold data.
 
- - **Hardware** means the the components of a computer, Hardware powers and allows the PC to function. e.g. hard drive monitor, keyboard... **Soft ware** is the thing that makes the hardware useful. One good example of software is Windows.
+ - **Hardware** means the the components of a computer, Hardware powers and allows the PC to function. e.g. hard drive monitor, keyboard... **Soft ware** is the thing that makes the hardware useful. One good example of software is Windows.git
