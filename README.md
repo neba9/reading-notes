@@ -9,5 +9,5 @@ Hi my name is** Nebiyu.** i am hear to lear code
 - [*html-notes*](html-notes.md)
 - [*css-note*](csss-note.md)
 - [*How-computers-works*](how-computer-works.md)
--[*javascript*](javascript.md)
-
+- [*javascript*](javascript.md)
+- [*java-script&jquery*](java-script&jquery.md)
