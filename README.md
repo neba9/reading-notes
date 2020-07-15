@@ -11,3 +11,4 @@ Hi my name is** Nebiyu.** i am hear to lear code
 - [*How-computers-works*](how-computer-works.md)
 - [*javascript*](javascript.md)
 - [*java-script&jquery*](java-script&jquery.md)
+- [*For and While Loops*](loops-notes.md)
