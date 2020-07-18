@@ -1,5 +1,7 @@
-# Reading notes
-Hi my name is** Nebiyu.** i am hear to lear code 
+# Code 201 Reading notes
+Hi my name is** Nebiyu.** i am hear to learn code 
+
+- this web site has list of my **Reading Notes** 
 
 ### table of content
 
