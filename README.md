@@ -15,3 +15,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*java-script&jquery*](java-script&jquery.md)
 - [*For and While Loops*](loops-notes.md)
 - [*class-01*](class-01.md)
+- [*class-02*](class-02.md)
