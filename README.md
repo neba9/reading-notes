@@ -16,3 +16,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*For and While Loops*](loops-notes.md)
 - [*class-01*](class-01.md)
 - [*class-02*](class-02.md)
+- [*class-03*](class-03.md)
