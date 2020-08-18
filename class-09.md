@@ -163,4 +163,3 @@ outside of the box containing the main points.
 ```checkUsername(5);``` //pass arguments here
 ```},false);```
 
-- 
