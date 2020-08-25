@@ -26,17 +26,17 @@
 - Inside the same script tags we need to create our data, in this instance it’s an object that contains labels for the base of our chart and datasets to describe the values on the chart. Add this immediately above the line that begins ‘var buyers=’:
 
 - Ex: ```var buyerData = {```
-	```labels : ["January","February","March","April","May","June"],
-	```datasets : [
-	```	{``
-			```fillColor : "rgba(172,194,132,0.4)",
-			```strokeColor : "#ACC26D",```
-			```pointColor : "#fff",
-			```pointStrokeColor : "#9DB86D",
-			```data : [203,156,99,251,305,247]
-		```}
-	```]
-```}
+	labels : ["January","February","March","April","May","June"],
+	datasets : [
+		{
+			fillColor : "rgba(172,194,132,0.4)",
+			strokeColor : "#ACC26D",
+			pointColor : "#fff",
+			pointStrokeColor : "#9DB86D",
+			data : [203,156,99,251,305,247]
+		}
+	]
+}
 
 2. **Drawing a pie chart**:same like line chart we need the canvas element.
 Ex:**1st**: ```<canvas id="countries" width="600" height="400"></canvas>```
@@ -50,11 +50,11 @@ Ex:**1st**: ```<canvas id="countries" width="600" height="400"></canvas>```
 
 - Next we need to create the data. This data is a little different to the line chart because the pie chart is simpler, we just need to supply a value and a color for each section:
 
-- Ex: ```var pieData = [```
-	```{```
+- Ex: var pieData = [
+	{
 		value: 20,
 		color:"#878BB6"
-	```},```
+	},
 	{
 		value : 40,
 		color : "#4ACAB4"
@@ -66,30 +66,30 @@ Ex:**1st**: ```<canvas id="countries" width="600" height="400"></canvas>```
 	{
 		value : 30,
 		color : "#FFEA88"
-```	}```
-```];``
+	}
+];
 
 - Now, immediately after the pieData we’ll add our options:
 
 - These options do two things, first they remove the stroke from the segments, and then they animate the scale of the pie so that it zooms out from nothing.
 
-- ``var pieOptions = {``
-	```segmentShowStroke : false,```
-	```animateScale : true```
-```}```
+- var pieOptions = {
+	segmentShowStroke : false,
+	animateScale : true
+}
 
 3. **Drawing a bar chart**: Happily the syntax for the bar chart is very similar to the line chart we’ve already added. First, we add the canvas element:
 
-- ```<canvas id="income" width="600" height="400"></canvas>```
+- <canvas id="income" width="600" height="400"></canvas>
 
 - Next, we retrieve the element and create the graph:
 
-- ```var income = document.getElementById("income").getContext("2d");```
-```new Chart(income).Bar(barData);```
+- var income = document.getElementById("income").getContext("2d");
+new Chart(income).Bar(barData);
 
 - And finally, we add in the bar chart’s data:
 
-```var barData = {```
+var barData = {
 	labels : ["January","February","March","April","May","June"],
 	datasets : [
 		{
