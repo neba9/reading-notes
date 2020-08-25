@@ -6,9 +6,12 @@
 - A great way to get started with charts is with Chart.js, a JavaScript plugin that uses HTML5’s canvas element to draw the graph onto the page. It’s a well documented plugin that makes using all kinds of bar charts, line charts, pie charts and more, incredibly easy.
 
 - there are three types of chart such as :
-1. **Line chart**
-2. **Pie chart**
-3. **Bar chart**
+
+1. **Line chart**:A line chart graphically displays data that changes continuously over time.
+
+2. **Pie chart**: Bar charts represent categorical data with rectangular bars.
+
+3. **Bar chart**:When it comes to statistical types of graphs and charts.
 
 1. **Drawing a line chart**:To draw a line chart, the first thing we need to do is create a canvas element in our HTML in which Chart.js can draw our chart. So add this to the body of our HTML page:
 
@@ -23,17 +26,17 @@
 - Inside the same script tags we need to create our data, in this instance it’s an object that contains labels for the base of our chart and datasets to describe the values on the chart. Add this immediately above the line that begins ‘var buyers=’:
 
 - Ex: ```var buyerData = {```
-	```labels : ["January","February","March","April","May","June"],```
-	```datasets : [```
+	```labels : ["January","February","March","April","May","June"],
+	```datasets : [
 	```	{``
-			```fillColor : "rgba(172,194,132,0.4)",```
+			```fillColor : "rgba(172,194,132,0.4)",
 			```strokeColor : "#ACC26D",```
-			```pointColor : "#fff",```
-			```pointStrokeColor : "#9DB86D",```
-			```data : [203,156,99,251,305,247]```
-		```}```
-	```]```
-```}```
+			```pointColor : "#fff",
+			```pointStrokeColor : "#9DB86D",
+			```data : [203,156,99,251,305,247]
+		```}
+	```]
+```}
 
 2. **Drawing a pie chart**:same like line chart we need the canvas element.
 Ex:**1st**: ```<canvas id="countries" width="600" height="400"></canvas>```
