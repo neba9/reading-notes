@@ -26,11 +26,11 @@
 - Inside the same script tags we need to create our data, in this instance it’s an object that contains labels for the base of our chart and datasets to describe the values on the chart. Add this immediately above the line that begins ‘var buyers=’:
 
 - Ex: ```var buyerData = {```
-	labels : ["January","February","March","April","May","June"],
-	datasets : [
-		{
-			fillColor : "rgba(172,194,132,0.4)",
-			strokeColor : "#ACC26D",
+	```labels : ["January","February","March","April","May","June"],```
+	```datasets : [```
+		```{```
+			```fillColor : "rgba(172,194,132,0.4)",```
+		strokeColor : "#ACC26D",```
 			pointColor : "#fff",
 			pointStrokeColor : "#9DB86D",
 			data : [203,156,99,251,305,247]
