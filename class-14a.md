@@ -167,7 +167,7 @@
 7. **Swing**: We can also create highly complex animations using @keyframes, animation and animation-iteration.
 - In this case, we’ll first define a CSS animation in your styles. You’ll notice that due to implementation issues, we need to use @-webkit-keyframes as well as @keyframes (yes, Internet Explorer really is better than Chrome, in this respect at least).
 
-8. ** Inset border**:Give your div the class “border” and add the following CSS to your styles:
+8. **gitInset border**:Give your div the class “border” and add the following CSS to your styles:
 - ```.border:hover```
 ```{```
         ```box-shadow: inset 0 0 0 25px #53a7ea;}```
