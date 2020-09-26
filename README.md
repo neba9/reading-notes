@@ -30,4 +30,7 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*class-14b*](class-14b.md)
 - [*class-14a*](class-14a.md)
 
+# Code 301 Reading notes
 
+ 
+- [*301-class-01*](301-class-01.md) 
