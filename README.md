@@ -40,3 +40,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*301-class-05*](301-class-05.md)
 - [*301-class-06*](301-class-06.md)
 - [*301-class-07*](301-class-07.md)
+- [*301-class-08*](301-class-08.md)
