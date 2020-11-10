@@ -50,27 +50,27 @@ These steps demonstrate the process of normalizing a fictitious student table.
 
 
 1.  Unnormalized table:
-
-TABLE 1
-Student#	Advisor	Adv-Room	Class1	Class2	Class3
-1022	    Jones	    412	     101-07	  143-01	159-02
-4123	    Smith  	  216	      201-01	211-02	214-01
-
+```
+ TABLE 1
+ Student#	Advisor	Adv-Room	Class1	Class2	Class3
+ 1022	    Jones	    412	     101-07	  143-01	159-02
+ 4123	    Smith  	  216	      201-01	211-02	214-01
+```
 2. **First normal form**: No repeating groups
 
 - Tables should have only two dimensions. Since one student has several classes, these classes should be listed in a separate table. Fields Class1, Class2, and Class3 in the above records are indications of design trouble.
 
 - Spreadsheets often use the third dimension, but tables should not. Another way to look at this problem is with a one-to-many relationship, do not put the one side and the many side in the same table. Instead, create another table in first normal form by eliminating the repeating group (Class#), as shown below:
-
-TABLE 2
-Student#	Advisor	Adv-Room	Class#
-1022	    Jones	    412	    101-07
-1022	    Jones	    412	    143-01
-1022	    Jones	    412	    159-02
-4123	    Smith	    216	    201-01
-4123	    Smith	    216	    211-02
-4123	    Smith	    216	    214-01
-
+```
+ TABLE 2
+ Student#	Advisor	Adv-Room	Class#
+ 1022	    Jones	    412	    101-07
+ 1022	    Jones	    412	    143-01
+ 1022	    Jones	    412	    159-02
+ 4123	    Smith	    216	    201-01
+ 4123	    Smith	    216	    211-02
+ 4123	    Smith	    216	    214-01
+```
 
 3. **Second normal form**: Eliminate redundant data
 
@@ -79,40 +79,40 @@ Student#	Advisor	Adv-Room	Class#
 The following two tables demonstrate second normal form:
 
 Students:
-
-TABLE 3
-Student#	Advisor	Adv-Room
- 1022	    Jones	   412
- 4123	    Smith	   216
-
+```
+ TABLE 3
+ Student#	Advisor	Adv-Room
+  1022	    Jones	   412
+  4123	    Smith	   216
+```
 Registration:
-
-TABLE 4
-Student#	Class#
- 1022	    101-07
- 1022	    143-01
- 1022	    159-02
- 4123	    201-01
- 4123	    211-02
- 4123	    214-01
-
+```
+ TABLE 4
+ Student#	 Class#
+  1022	    101-07
+  1022	    143-01
+  1022	    159-02
+  4123	    201-01
+  4123	    211-02
+  4123	    214-01
+```
 4. Third normal form: Eliminate data not dependent on key
 
 In the last example, Adv-Room (the advisor's office number) is functionally dependent on the Advisor attribute. The solution is to move that attribute from the Students table to the Faculty table, as shown below:
 
 Students:
-
-TABLE 5
-Student#	Advisor
-1022	Jones
-4123	Smith
-
+```
+ TABLE 5
+ Student#	Advisor
+ 1022	Jones
+ 4123	Smith
+```
 Faculty:
-
-TABLE 6
-Name	 Room	 Dept
- Jones	412	 42
- Smith	216	 42
-
+```
+ TABLE 6
+ Name	 Room	 Dept
+  Jones	412	 42
+  Smith	216	 42
+````
 
  - **source https://docs.microsoft.com/**
