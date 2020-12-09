@@ -52,3 +52,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 # Code 401 - Advanced software development
 
 - [*401-class-01*](401-class-01.md)
+- [*401-class-02*](401-class-02.md)
