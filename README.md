@@ -58,3 +58,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*401-class-05*](401-class-05.md)
 - [*401-class-06*](401-class-06.md)
 - [*401-class-07*](401-class-07.md)
+- [*401-class-08*](401-class-08.md)
