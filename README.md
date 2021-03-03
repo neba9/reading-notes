@@ -70,3 +70,4 @@ Hi my name is** Nebiyu.** i am hear to learn code
 - [*401-class-18*](401-class-18.md)
 - [*401-class-19*](401-class-19.md)
 - [*401-class-26*](401-class-26.md)
+- [*401-class-27*](401-class-27.md)
